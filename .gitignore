@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Resultados (se regeneran al ejecutar el proceso) y temporales de Spark
+output/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
